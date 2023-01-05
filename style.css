@@ -61,12 +61,11 @@ p {
 .col1 h1 {
   font-size: 50px;
   line-height: 60px;
-  margin: 25px;
 }
 
 .btn {
   display: inline-block;
-  background: red;
+  background: #563434;
   color: white;
   padding: 8px 30px;
   margin: 30px 0;
@@ -75,11 +74,11 @@ p {
 }
 
 .btn:hover {
-  background-color: #563434;
+  background-color: brown;
 }
 
 .header {
-  background: radial-gradient(#fff, #ffd6d6);
+  background: radial-gradient(#fff, #b3919f);
 }
 
 .header .row {
@@ -95,8 +94,17 @@ p {
   flex-basis: 30%;
   min-width: 250px;
   margin-bottom: 30px;
+  position: relative;
+  text-align: center;
+  color: #623448;
 }
 
+.center-text{
+   position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .col2 img {
   width: 100%;
 }
@@ -134,7 +142,7 @@ p {
 
 .title::after {
   content: "";
-  background: #ff523b;
+  background: #623448;
   width: 80px;
   height: 5px;
   border-radius: 5px;
@@ -155,13 +163,13 @@ h4 {
 
 .rating .fa-solid,
 .fa-regular {
-  color: #ff523b;
+  color: #623448;
 }
 
 /* offer */
 
 .offer {
-  background: radial-gradient(#fff, #ffd6d6);
+  background: radial-gradient(#fff, #b3919f);
   margin-top: 80px;
   padding: 30px 0;
 }
@@ -197,7 +205,7 @@ small {
 
 .fa-quote-left {
   font-size: 34px;
-  color: #ff523b;
+  color: #623448;
 }
 
 .col3 p {
@@ -233,7 +241,7 @@ small {
 /* Footer */
 
 .footer {
-  background: #000;
+  background: black;
   color: #8a8a8a;
   font-size: 14px;
   padding: 60px 0 20px;
@@ -310,7 +318,7 @@ ul {
     position: absolute;
     top: 70px;
     left: 0px;
-    background: #333;
+    background: #623448;
     width: 100%;
     overflow: hidden;
     transition: max-Height 0.5s;
@@ -322,7 +330,7 @@ ul {
     margin-bottom: 10px;
   }
   nav ul li a {
-    color: #fff;
+    color: #b5b5b5;
   }
   .menu-icon {
     display: block;
